@@ -1,0 +1,34 @@
+.cnphem-form input[type="text"],
+.cnphem-form input[type="time"],
+.cnphem-form input[type="date"],
+.cnphem-form input[type="number"],
+.cnphem-form select{
+	width: 60%;
+}
+
+table.cnphem-table-option {
+	width: 100%;
+	border-collapse: collapse;
+}
+tr.cnphem-field th {
+	width: 35%;
+	opacity: 0.8;
+}
+tr.cnphem-field td {
+	padding: 12.5px;
+}
+.cnphem-field th .option-head h3 {
+	text-align: left;
+	font-size: 1em;
+	margin-left: 20px;
+}
+.cnphem-field th span.description p {
+	font-style: normal;
+	text-align: left;
+}
+.cnphem-field td {
+	padding: 1em;
+}
+tr.cnphem-field {
+	border-bottom: 1px solid #E7E7E7;
+}
